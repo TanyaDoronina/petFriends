@@ -7,7 +7,7 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 class petFriends:
 # api библиотека к  приложению PetFriends
     def __init__(self):
-        self.base_url = "https://petfriends1.herokuapp.com/"
+        self.base_url = "https://petfriends.skillfactory.ru/"
 
     def get_api_key(self, email, password):
 #Этот метод делает запрос с api сервера и возвращает статус запроса и результат  в виде уникального ключя пользователя, найденного по указанным email и паролем
